@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graph Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .graph-container {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      text-align: center;
+    }
+    .graph-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    .actions {
+      display: flex;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+    .actions a {
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 4px;
+      margin: 0 0.5rem;
+      transition: background-color 0.3s ease;
+    }
+    .actions a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Graph Generator</h1>
+    <div class="graph-container">
+      <img src="data:image/png;base64,{{ graph }}" alt="Graph">
+    </div>
+    <div class="actions">
+      <a href="{% url 'graph:graph_form' %}">Edit Preferences</a>
+      <a href="{% url 'graph:save_graph' graph_data.pk %}">Save Graph</a>
+    </div>
+  </div>
+</body>
+</html>
