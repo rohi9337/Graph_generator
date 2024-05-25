@@ -23,7 +23,7 @@
 <body>
   <div class="container my-5">
     <h1 class="text-center mb-4">Generate a Graph</h1>
-    <form method="post" class="shadow-lg p-5 rounded">
+    <form method="post" action="{% url 'graph:graph_form' %}" class="shadow-lg p-5 rounded">
       {% csrf_token %}
       <div class="form-group">
         <label for="title">Title:</label>
@@ -68,6 +68,7 @@
       </div>
       <div class="text-center">
         <button type="submit" class="btn btn-primary">Generate Graph</button>
+        <button type="submit" class="btn btn-secondary" formaction="{% url 'graph:save_graph' %}">Save Graph Image</button>
       </div>
     </form>
   </div>
