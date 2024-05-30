@@ -61,11 +61,27 @@ This project is a **Graph Generation App** built with Django and Matplotlib. It 
 
 ## Screenshots
 
-![Graph Form](https://github.com/Abelleul23/graph-generator/tree/main/Screenshots/graph_form.png)
+![Graph Form](https://github.com/Abelleul23/graph-generator/raw/main/Screenshots/graph_form.png) <!-- Replace with your form screenshot URL -->
 _Graph Form_
 
-![Generated Graph](https://github.com/Abelleul23/graph-generator/tree/main/Screenshots/generated_graph.png)
+![Generated Graph](https://github.com/Abelleul23/graph-generator/raw/main/Screenshots/generated_graph.png) <!-- Replace with your graph screenshot URL -->
 _Generated Graph_
+
+## Code Overview
+
+### Views
+
+- `graph_form(request)`: Handles the form input, generates the graph, and renders the results page.
+- `save_graph(request)`: Generates the graph based on input and provides a download link for the image.
+
+### Models
+
+- `GraphData`: Model to store graph-related data (if applicable).
+
+### Templates
+
+- `graph_form.html`: Form template for user input.
+- `graph_view.html`: Template to display the generated graph.
 
 ## Technologies Used
 
