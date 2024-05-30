@@ -1,7 +1,7 @@
 ````markdown
 # Django Graph Generation App
 
-![Project Logo](https://via.placeholder.com/150) 
+![Project Logo](https://via.placeholder.com/150)
 
 ## Overview
 
@@ -61,13 +61,11 @@ This project is a **Graph Generation App** built with Django and Matplotlib. It 
 
 ## Screenshots
 
-![Graph Form](https://github.com/Abelleul23/graph-generator/Screenshots/graph_form.png) 
+![Graph Form](https://github.com/Abelleul23/graph-generator/tree/main/Screenshots/graph_form.png)
 _Graph Form_
 
-![Generated Graph](https://github.com/Abelleul23/graph-generator/Screenshots/generated_graph.png)
+![Generated Graph](https://github.com/Abelleul23/graph-generator/tree/main/Screenshots/generated_graph.png)
 _Generated Graph_
-
-
 
 ## Technologies Used
 
