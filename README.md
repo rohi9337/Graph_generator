@@ -102,7 +102,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - **Abel Leul**: abelteamr@gmail.com
 - **Project Link**: [https://github.com/Abelleul23/graph-generator.git](https://github.com/Abelleul23/graph-generator.git)
-
-```
-
-```
